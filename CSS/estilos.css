@@ -1,0 +1,375 @@
+body #particles-js {
+  height: 100vh;
+  width: 100px;
+  position: fixed;
+  z-index: -1; }
+
+header {
+  background: url(../IMG/bg.jpg), #019851;
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat; }
+  header .contenedor_logo_menu {
+    padding: 25px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+    header .contenedor_logo_menu .logo a {
+      display: block; }
+      header .contenedor_logo_menu .logo a img {
+        vertical-align: top;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); }
+    header .contenedor_logo_menu .menu {
+      text-align: right;
+      line-height: 50px; }
+      header .contenedor_logo_menu .menu a {
+        color: #fff;
+        margin-left: 60px;
+        font-size: 18px; }
+  header .textos {
+    color: #fff;
+    text-align: center;
+    margin: 100px 0; }
+    header .textos .primera_linea,
+    header .textos .segunda_linea {
+      font-family: "Open Sans", Arial, Sans-serif;
+      font-weight: 300; }
+    header .textos .primera_linea {
+      font-size: 35px;
+      list-style: 35px;
+      margin-bottom: 30px; }
+    header .textos .segunda_linea {
+      font-size: 25px;
+      list-style: 25px;
+      margin-bottom: 60px; }
+    header .textos .contenedor_btns a {
+      border-radius: 4px;
+      border: 2px solid #fff;
+      color: #fff;
+      padding: 12px 0;
+      font-weight: 600;
+      width: 235px;
+      display: inline-block;
+      text-align: center;
+      margin: 0px 10px; }
+      header .textos .contenedor_btns a:hover {
+        text-decoration: none;
+        background: #FFFFFF;
+        color: #4f4f4f; }
+
+.main .caracteristicas {
+  padding: 70px 0; }
+  .main .caracteristicas .titulo {
+    text-align: center;
+    font-family: "Open Sans", Arial, Sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #1c1c1c;
+    margin-bottom: 70px; }
+  .main .caracteristicas .caracteristica {
+    text-align: center;
+    color: #1c1c1c; }
+    .main .caracteristicas .caracteristica .icono {
+      vertical-align: top;
+      margin-bottom: 30px;
+      width: 25%;
+      height: 25%; }
+      .main .caracteristicas .caracteristica .icono .primera_linea {
+        font-weight: 700;
+        margin-bottom: 30px;
+        font-size: 20px; }
+    .main .caracteristicas .caracteristica .parrafo {
+      margin-bottom: 30px;
+      line-height: 28px; }
+.main .reviews {
+  padding: 70px 0; }
+  .main .reviews .titulo {
+    text-align: center;
+    font-family: "Open Sans", Arial, Sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #1C1C1C;
+    margin-bottom: 70px; }
+  .main .reviews .producto {
+    overflow: hidden;
+    margin-bottom: 20px; }
+    .main .reviews .producto .review {
+      width: 20%;
+      float: left;
+      text-align: right; }
+      .main .reviews .producto .review img {
+        width: 100%;
+        vertical-align: top;
+        border-radius: 100%; }
+    .main .reviews .producto .foto {
+      float: left;
+      width: 80%;
+      padding: 0px 30px;
+      margin-top: 20px; }
+      .main .reviews .producto .foto .texto {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 10px; }
+      .main .reviews .producto .foto .nombre {
+        color: #bc1339;
+        font-size: 14px; }
+    .main .reviews .producto.derecha .review {
+      float: right;
+      text-align: left; }
+    .main .reviews .producto.derecha .foto {
+      float: right;
+      text-align: right; }
+.main .productos {
+  background: url(../IMG/productos-bg.jpg), #727171;
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  padding: 70px 0;
+  margin-bottom: 150px; }
+  .main .productos .titulo {
+    text-align: center;
+    font-family: "Open Sans", Arial, Sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 70px;
+    text-shadow: 0 0 10px #fff; }
+  .main .productos .tarjeta {
+    background: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    font-family: "Open Sans", Arial, Sans-serif;
+    color: #000;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    padding: 0px 0px 20px 0px; }
+    .main .productos .tarjeta img {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center 0;
+      background-repeat: no-repeat; }
+    .main .productos .tarjeta .titulo2 {
+      text-align: center;
+      font-family: "Open Sans", Arial, Sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      color: #1c1c1c; }
+    .main .productos .tarjeta p {
+      text-align: center;
+      font-family: "Open Sans", Arial, Sans-serif;
+      font-weight: 300;
+      font-size: 16px;
+      padding: 0px 10px;
+      color: #000; }
+    .main .productos .tarjeta .btn {
+      width: 70%;
+      padding: 15px 0;
+      text-align: center;
+      display: inline-block;
+      border-radius: 100px;
+      font-size: 16px;
+      background: #e2e2e2;
+      background: -moz-linear-gradient(top, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+      background: -webkit-gradient(left top, left bottom, color-stop(0%, #e2e2e2), color-stop(50%, #dbdbdb), color-stop(51%, #d1d1d1), color-stop(100%, #fefefe));
+      background: -webkit-linear-gradient(top, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+      background: -o-linear-gradient(top, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+      background: -ms-linear-gradient(top, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+      background: linear-gradient(to bottom, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=0 );
+      border: 0.5px solid #727171;
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.8); }
+.main .fotos {
+  margin-bottom: 70px; }
+  .main .fotos .foto {
+    margin-bottom: 20px; }
+    .main .fotos .foto .thumb img {
+      border-radius: 3px;
+      width: 50%;
+      vertical-align: top; }
+    .main .fotos .foto .titulo {
+      margin-top: 70px;
+      margin-bottom: 40px;
+      font-size: 32px;
+      line-height: 32px;
+      font-weight: 300;
+      text-align: center; }
+      .main .fotos .foto .titulo.verde {
+        color: #009750; }
+      .main .fotos .foto .titulo.morado {
+        color: #6178ae; }
+.main .nosotros {
+  background: #1c1c1c;
+  padding: 40px;
+  color: #fff; }
+  .main .nosotros .titulo {
+    text-align: center;
+    font-family: "Open Sans", Arial, Sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    margin-bottom: 40px; }
+  .main .nosotros .we {
+    text-align: center; }
+    .main .nosotros .we a {
+      text-decoration: none; }
+      .main .nosotros .we a img {
+        padding: 20px; }
+    .main .nosotros .we p {
+      color: #fff; }
+.main .mapa .titulo {
+  text-align: center;
+  font-family: "Open Sans", Arial, Sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  color: #1c1c1c;
+  background: rgba(204, 204, 204, 0.5);
+  padding: 0;
+  margin: 0; }
+
+footer .direccion {
+  background: #1c1c1c;
+  padding: 30px 0;
+  color: #FFF;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+  footer .direccion .titulo {
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 300;
+    margin-bottom: 30px; }
+    footer .direccion .titulo .calle,
+    footer .direccion .titulo .telefono,
+    footer .direccion .titulo .correo {
+      margin-bottom: 10px; }
+  footer .direccion .logo {
+    margin-top: 325px; }
+footer .social {
+  text-align: center;
+  padding: 50px 0px;
+  background: #1c1c1c; }
+  footer .social a {
+    padding: 10px;
+    display: inline-block;
+    margin: 0 20px;
+    width: 50px;
+    font-size: 22px;
+    color: #FFF;
+    background: #1c1c1c;
+    border-radius: 100px;
+    margin-bottom: 20px;
+    background-image: -webkit-linear-gradient(bottom, #6d0202 22%, #c90000 61%);
+    background-image: -o-linear-gradient(bottom, #6d0202 22%, #c90000 61%);
+    background-image: linear-gradient(to top, #6d0202 22%, #c90000 61%);
+    background-image: -moz-linear-gradient(bottom, #6d0202 22%, #c90000 61%);
+    background-image: -o-linear-gradient(bottom, #6d0202 22%, #c90000 61%);
+    background-image: -ms-linear-gradient(bottom, #6d0202 22%, #c90000 61%);
+    background-image: linear-gradient(bottom, #6D0202 22%, #c90000 61%);
+    color: #fff;
+    text-shadow: 0 3px 0 #000; }
+    footer .social a:hover {
+      text-decoration: nones; }
+    footer .social a.facebook {
+      background-color: #2b4170;
+      background: -moz-linear-gradient(top, #3b5998, #2b4170);
+      background: -ms-linear-gradient(top, #3b5998, #2b4170);
+      background: -webkit-linear-gradient(top, #3b5998, #2b4170);
+      border: 1px solid #2b4170;
+      text-shadow: 0 -1px -1px #1f2f52; }
+    footer .social a.instagram {
+      background: #d6249f;
+      background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+      box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25); }
+    footer .social a.twitter {
+      background: linear-gradient(45deg, #66757F, #00ACEE, #36D8FF, #F5F8FA, #FFFFFF); }
+  footer .social .copyright {
+    color: #fff;
+    text-align: center;
+    font-size: 14px; }
+
+@media screen and (max-width: 1200px) {
+  .productos .tarjeta {
+    width: 300px; }
+    .productos .tarjeta .parrafode1 {
+      margin-bottom: 37px; }
+
+  .fotos .foto .titulo {
+    margin-top: 400px; } }
+@media screen and (max-width: 992px) {
+  header .contenedor_logo_menu .logo {
+    margin-bottom: 20px;
+    text-align: center; }
+  header .contenedor_logo_menu .menu {
+    text-align: center; }
+    header .contenedor_logo_menu .menu a {
+      margin: 0 20px; }
+  header .textos {
+    margin: 50px 0;
+    font-size: 16px; }
+    header .textos .primera_linea {
+      font-size: 1.5; }
+    header .textos .segunda_linea {
+      font-size: 1.3s; }
+    header .textos .contenedor_btns a {
+      margin-bottom: 10px; }
+
+  .main .fotos .foto .foto1,
+  .main .fotos .foto .foto2 {
+    background: #000;
+    margin-top: 80px; }
+  .main .fotos .foto .titulo {
+    margin-top: 0; }
+  .main .productos .titulo {
+    text-shadow: none; }
+  .main .productos .tarjeta {
+    width: 240px; }
+  .main .fotos .foto .titulo {
+    margin-top: 100px; }
+  .main .nosotros .we {
+    margin-top: 50px; }
+
+  footer .direccion {
+    text-align: center; }
+    footer .direccion .logo {
+      margin-top: 60px; } }
+@media screen and (max-width: 768px) {
+  .main .reviews .titulo {
+    margin-bottom: 40px; }
+  .main .reviews .producto .review {
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    margin-left: 260px;
+    float: center; }
+  .main .reviews .producto .foto .texto {
+    text-align: center;
+    vertical-align: center;
+    margin-left: 140px; }
+  .main .reviews .producto .foto .nombre {
+    margin-left: 140px; }
+  .main .reviews .producto.derecha .review {
+    width: 200px;
+    height: 200px;
+    margin-right: 240px; }
+  .main .reviews .producto.derecha .foto {
+    margin-right: 250px;
+    float: left;
+    text-align: center; }
+  .main .productos .tarjeta {
+    width: 80%;
+    margin-left: 73px;
+    margin-top: 20px; } }
+@media screen and (max-width: 460px) {
+  .main .reviews .titulo {
+    margin-bottom: 40px; }
+  .main .reviews .producto .review {
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    margin-left: 80px;
+    float: center; }
+  .main .reviews .producto .foto .texto {
+    text-align: center;
+    vertical-align: center;
+    margin-left: 50px; }
+  .main .reviews .producto .foto .nombre {
+    text-align: center;
+    vertical-align: center;
+    margin-left: 50px; } }
+
+/*# sourceMappingURL=estilos.css.map */
